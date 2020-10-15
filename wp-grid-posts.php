@@ -8,9 +8,11 @@
 
 add_shortcode( 'fbg_featured_grid', 'fbg_featured_grid' );
 function fbg_featured_grid() {
+		/**
 		if( ! current_user_can( 'administrator' ) ) :
 			return;
 		endif;
+		*/
 
 		$args = array(
 			'posts_per_page' => 5,
@@ -29,6 +31,8 @@ function fbg_featured_grid() {
 			.fbg-featured-grid-container {
 			  display: flex;
 			  height: 500px;
+			  margin: 0 auto 36px;
+			  max-width: 1200px;
 			}
 			.fbg-fgc-first-container,
 			.fbg-fgc-second-container {
