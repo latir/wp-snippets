@@ -1,2 +1,2 @@
 # wp-snippets
-Various snippets to use with wordpress' code snippets plugin
+Various snippets to use with Wordpress' [code snippets](https://en-ca.wordpress.org/plugins/code-snippets/) plugin.
